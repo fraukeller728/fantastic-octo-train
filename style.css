@@ -104,7 +104,7 @@ img { max-width: 100%; }
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(loader.gif);
+  background-image: url('loader.gif');
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
@@ -774,7 +774,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(testimonial-bg.jpg);
+  background-image: url('testimonial-bg.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -883,7 +883,7 @@ ul.portfolio-image li .desc{
   font-size: 16px;
   padding: 0 10px 0 10px;
   text-align: center;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1px;
   line-height: 26px;
   text-transform: uppercase;
   font-weight: 700;
@@ -994,7 +994,6 @@ ul.portfolio-image li .desc{
   border-bottom: 1px solid #2b2b2b;
   background: transparent;
   color: #969696;
-  font-size: 13px;
 }
 #contact input:focus,
 #contact textarea:focus {
@@ -1137,7 +1136,6 @@ ul.portfolio-image li .desc{
 }
 
 .socials a {
-  padding: 0.3em 0.8em;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
   display: inline-block;
@@ -1164,7 +1162,6 @@ ul.portfolio-image li .desc{
 }
 
 .socials a:after {
-  padding: 0.3em 0.8em;
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -1182,7 +1179,6 @@ ul.portfolio-image li .desc{
 
 .facebook{
   background: #969696;
-  /*padding: 20px 0;*/
 }
 .facebook a:after{
   background-color: #527bbb;
@@ -1221,12 +1217,11 @@ ul.portfolio-image li .desc{
   box-sizing: border-box;
 }
 .skillst .count-bar {
-  width: 100%;
   height: 5px;
   width: 0px;
   position: relative;
+  background-color: #818181;
 }
-.skillst .count-bar {background-color: #818181;}
 .skillst .count-bar span{ font-size: 12px;}
 .skillst .title {
   position: absolute;
@@ -1245,7 +1240,7 @@ ul.portfolio-image li .desc{
   height: 18px;
   color: #fff;
   text-align: center;
-  background-color: #2f2f2f;
+  background-color: #818181;
 }
 .skillst .count-bar .count span {
   position: relative;
@@ -1259,6 +1254,5 @@ ul.portfolio-image li .desc{
   content: "";
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
+  border-top: 4px solid #818181;
 }
-.skillst .count-bar .count { background-color: #818181;}
-.skillst .count-bar .count span:after { border-top: 4px solid #818181;}
