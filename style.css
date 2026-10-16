@@ -31,8 +31,8 @@ TABLE OF CONTENTS:
 /*-----------------------------------------1) General--------------------------------------------------*/
 @font-face {
   font-family: 'Glyphter';
-  src: url('../fonts/Glyphter.eot');
-  src: url('../fonts/Glyphter?#iefix') format('embedded-opentype'), url('../fonts/Glyphter.woff') format('woff'), url('../fonts/Glyphter.ttf') format('truetype'), url('../fonts/Glyphter.svg#Glyphter') format('svg');
+  src: url('../Glyphter.eot');
+  src: url('../Glyphter?#iefix') format('embedded-opentype'), url('../Glyphter.woff') format('woff'), url('../Glyphter.ttf') format('truetype'), url('../Glyphter.svg#Glyphter') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -104,7 +104,7 @@ img { max-width: 100%; }
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../images/loader.gif);
+  background-image: url(../loader.gif);
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
@@ -505,7 +505,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/hero1.jpeg');
+  background: url('../hero1.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -774,7 +774,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(../images/testimonial-bg.jpg);
+  background-image: url(../testimonial-bg.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -912,7 +912,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/reza.jpg');
+  background: url('../reza.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
