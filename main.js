@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is L. Keller", "I'm a teacher", "I love Canva und Webdesign"],
+        strings: ["My Name is L. Keller", "I'm a teacher", "I love Canva und Web Design"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
